@@ -4,4 +4,7 @@ A file stockmarket.txt stores all the daily percentage increases/decreases of st
 This programme creates a minimum volatility portfolio of purchased stocks while not exceeding a given investment amount.
 
 It calculates the top 20 lowest volatility companies and uses a knapsack to randomly generate stock purchases, 
-it runs this system many times randomly using the Monte Carlo Method. 
+it runs this system many times using the Monte Carlo Method.
+
+OUTPUT: A breakdown of each package within the portfolio, Stock Name, Purcahse Quantity, Value and Volatility Rate.
+Finally it will calculate total Minimum Volatility of portfolio and print to screen.
